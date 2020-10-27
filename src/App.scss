@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  ul {
+    list-style: none;
+    li {
+      color: #666;
+      &.completed{
+        color: #31ab31;
+        font-weight: bold;
+      }
+    }
+  }
+}
