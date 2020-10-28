@@ -1,0 +1,12 @@
+@import './../../colors';
+.social{
+    display: inline-block;
+    .socialItem{
+        a{
+            color: $secondaryColor;
+            &:hover{
+                color: $uqu-pallet-gray-2;
+            }
+        }
+    }
+}

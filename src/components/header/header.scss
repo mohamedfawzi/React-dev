@@ -1,3 +1,4 @@
+@import './../../colors';
 html, body, .wrapper {
     height: 100%;
     margin: 0;
@@ -5,9 +6,6 @@ html, body, .wrapper {
 .header{
     height: 100%;
     width: 100%;
-    background-color: #1b1d3c;
+    background-color: $primaryColor;
     display: block;
-    .logo{
-        width: 100px;
-    }
 }

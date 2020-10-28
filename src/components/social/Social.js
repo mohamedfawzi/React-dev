@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { FaLinkedin, FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
+import './social.scss';
 
 class Social extends Component {
   state = {
@@ -11,25 +12,25 @@ class Social extends Component {
   render() {
     return (
       <div>
-        <ul>
-          <li>
+        <ul className='social list-unstyled'>
+          <li className='socialItem float-left m-2'>
             <a href={this.state.linkedin}>
-              <FaLinkedin />
+              <FaLinkedin size={50}/>
             </a>
           </li>
-          <li>
+          <li className='socialItem float-left m-2'>
             <a href={this.state.facebook}>
-              <FaFacebook />
+              <FaFacebook size={50}/>
             </a>
           </li>
-          <li>
+          <li className='socialItem float-left m-2'>
             <a href={this.state.twitter}>
-              <FaTwitter />
+              <FaTwitter size={50}/>
             </a>
           </li>
-          <li>
+          <li className='socialItem float-left m-2'>
             <a href={this.state.github}>
-              <FaGithub />
+              <FaGithub size={50}/>
             </a>
           </li>
         </ul>
