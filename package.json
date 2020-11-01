@@ -16,8 +16,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-facebook": "^8.1.4",
+    "react-github-corner": "^2.5.0",
+    "react-github-heatmap": "^1.0.7",
     "react-icons": "^3.11.0",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-twitter-widgets": "^1.9.5"
   },
   "scripts": {
     "start": "react-scripts start",

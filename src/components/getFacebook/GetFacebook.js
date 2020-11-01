@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FacebookProvider, Page } from 'react-facebook'
-import { FaLinkedin, FaFacebook, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 export default class GetFacebook extends Component {
     
